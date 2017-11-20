@@ -16,7 +16,7 @@ class MainViewModel {
         isLoading.set(true)
         repoModel.refreshData(object :OnDataReadyCallBack{
             override fun onDataReady(data: String) {
-                TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+//                TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
                 isLoading.set(false)
                 text.set(data)
             }
